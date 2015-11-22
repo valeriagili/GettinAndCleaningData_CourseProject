@@ -89,413 +89,413 @@ A detailed variable description follows:
 
 - Average for each activity and subject of the mean of the X component of body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Acc.mean().Y
 
 - Average for each activity and subject of the mean of the Y component of body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Acc.mean().Z
 
 - Average for each activity and subject of the mean of the Z component of body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Acc.std().X
 
 - Average for each activity and subject of the standard deviation of the X component of body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Time.Dom.Body.Acc.std().Y
 
 - Average for each activity and subject of the standard deviation of the Y component of body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Acc.std().Z
 
 - Average for each activity and subject of the standard deviation of the Y component of body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Gravity.Acc.mean().X
 
 - Average for each activity and subject of the mean of the X component of gravity acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Time.Dom.Gravity.Acc.mean().Y
 
 - Average for each activity and subject of the mean of the Y component of gravity acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Gravity.Acc.mean().Z
 
 - Average for each activity and subject of the mean of the Z component of gravity acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Time.Dom.Gravity.Acc.std().X
 
 - Average for each activity and subject of the standard deviation of the X component of gravity acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Time.Dom.Gravity.Acc.std().Y
 
 - Average for each activity and subject of the standard deviation of the Y component of gravity acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Gravity.Acc.std().Z
 
 - Average for each activity and subject of the standard deviation of the Z component of gravity acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Time.Dom.Body.Acc.Jerk.mean().X
 
 - Average for each activity and subject of the mean of the X component of the Jerk signal for body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Acc.Jerk.mean().Y
 
 - Average for each activity and subject of the mean of the Y component of the Jerk signal for body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Acc.Jerk.mean().Z
 
 - Average for each activity and subject of the mean of the Z component of the Jerk signal for body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Acc.Jerk.std().X
 
 - Average for each activity and subject of the standard deviation of the X component of the Jerk signal for body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Acc.Jerk.std().Y
 
 - Average for each activity and subject of the standard deviation of the Y component of the Jerk signal for body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Time.Dom.Body.Acc.Jerk.std().Z
 
 - Average for each activity and subject of the standard deviation of the Z component of the Jerk signal for body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Time.Dom.Body.Angular.Vel.mean().X
 
 - Average for each activity and subject of the mean of the X component of body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Angular.Vel.mean().Y
 
 - Average for each activity and subject of the mean of the Y component of body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Angular.Vel.mean().Z
 
 - Average for each activity and subject of the mean of the Z component of body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Angular.Vel.std().X
 
 - Average for each activity and subject of the standard deviation of the X component of body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Angular.Vel.std().Y
 
 - Average for each activity and subject of the standard deviation of the Y component of body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Angular.Vel.std().Z
 
 - Average for each activity and subject of the standard deviation of the Z component of body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Angular.Vel.Jerk.mean().X
 
 - Average for each activity and subject of the mean of the X component of the Jerk signal for body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Angular.Vel.Jerk.mean().Y
 
 - Average for each activity and subject of the mean of the Y component of the Jerk signal for body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Angular.Vel.Jerk.mean().Z
 
 - Average for each activity and subject of the mean of the Z component of the Jerk signal for body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Angular.Vel.Jerk.std().X
 
 - Average for each activity and subject of the standard deviation of the X component of the Jerk signal for body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Angular.Vel.Jerk.std().Y
 
 - Average for each activity and subject of the standard deviation of the Y component of the Jerk signal for body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Angular.Vel.Jerk.std().Z
 
 - Average for each activity and subject of the standard deviation of the Z component of the Jerk signal for body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Acc.Mag.mean()
 
 - Average for each activity and subject of the mean of the magnitude of body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Acc.Mag.std()
 
 - Average for each activity and subject of the standard deviation of the magnitude of body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Gravity.Acc.Mag.mean()
 
 - Average for each activity and subject of the mean of the magnitude of gravity acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Gravity.Acc.Mag.std()
 
 - Average for each activity and subject of the standard deviation of the magnitude of gravity acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Acc.Jerk.Mag.mean()
 
 - Average for each activity and subject of the mean of the magnitude of the Jerk signal for body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Acc.Jerk.Mag.std()
 
 - Average for each activity and subject of the standard deviation of the magnitude of the Jerk signal for body acceleration in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Time.Dom.Body.Angular.Vel.Mag.mean()
 
 - Average for each activity and subject of the mean of the magnitude of the body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Time.Dom.Body.Angular.Vel.Mag.std()
 
 - Average for each activity and subject of the standard deviations of the magnitude of the body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Time.Dom.Body.Angular.Vel.Jerk.Mag.mean()
 
 - Average for each activity and subject of the mean of the magnitude of the Jerk signal for body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Time.Dom.Body.Angular.Vel.Jerk.Mag.std()
 
 - Average for each activity and subject of the standard deviation of the magnitude of the Jerk signal for body angular velocity in time domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Acc.mean().X
 
 - Average for each activity and subject of the mean of the X component of body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Acc.mean().Y
 
 - Average for each activity and subject of the mean of the Y component of body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Acc.mean().Z
 
 - Average for each activity and subject of the mean of the Z component of body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Acc.std().X
 
 - Average for each activity and subject of the standard deviation of the X component of body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Acc.std().Y
 
 - Average for each activity and subject of the standard deviation of the Y component of body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Acc.std().Z
 
 - Average for each activity and subject of the standard deviation of the Z component of body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Acc.Jerk.mean().X
 
 - Average for each activity and subject of the mean of the X component of the Jerk signal for body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Acc.Jerk.mean().Y
 
 - Average for each activity and subject of the mean of the Y component of the Jerk signal for body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Freq.Dom.Body.Acc.Jerk.mean().Z
 
 - Average for each activity and subject of the mean of the Z component of the Jerk signal for body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Freq.Dom.Body.Acc.Jerk.std().X
 
 - Average for each activity and subject of the standard deviation of the X component of the Jerk signal for body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Acc.Jerk.std().Y
 
 - Average for each activity and subject of the standard deviation of the Y component of the Jerk signal for body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Acc.Jerk.std().Z
 
 - Average for each activity and subject of the standard deviation of the Z component of the Jerk signal for body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Angular.Vel.mean().X
 
 - Average for each activity and subject of the mean of the X component of body angular velocity in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Angular.Vel.mean().Y
 
 - Average for each activity and subject of the mean of the Y component of body angular velocity in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Angular.Vel.mean().Z
 
 - Average for each activity and subject of the mean of the Z component of body angular velocity in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Freq.Dom.Body.Angular.Vel.std().X
 
 - Average for each activity and subject of the standard deviation of the X component of body angular velocity in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Freq.Dom.Body.Angular.Vel.std().Y
 
 - Average for each activity and subject of the standard deviation of the Y component of body angular velocity in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Freq.Dom.Body.Angular.Vel.std().Z
 
 - Average for each activity and subject of the standard deviation of the Z component of body angular velocity in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Freq.Dom.Body.Acc.Mag.mean()
 
 - Average for each activity and subject of the mean of the magnitude of body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Acc.Mag.std()
 
 - Average for each activity and subject of the standard deviation of the magnitude of body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Acc.Jerk.Mag.mean()
 
 - Average for each activity and subject of the mean of the magnitude of the jerk signal for body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Acc.Jerk.Mag.std()
 
 - Average for each activity and subject of the standard deviation of the magnitude of the jerk signal for body acceleration in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Angular.Vel.Mag.mean()
 
 - Average for each activity and subject of the mean of the magnitude of the body angular velocity in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 ###Averaged.Freq.Dom.Body.Angular.Vel.Mag.std()
 
 - Average for each activity and subject of the standard deviation of the magnitude of the body angular velocity in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Freq.Dom.Body.Angular.Vel.Jerk.Mag.mean()
 
 - Average for each activity and subject of the mean of the magnitude of the Jerk signal for body angular velocity in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
 
 ###Averaged.Freq.Dom.Body.Angular.Vel.Jerk.Mag.std() 
 
 - Average for each activity and subject of the standard deviation of the magnitude of the Jerk signal for body angular velocity in frequency domain.
 
-- Dimensionless (see discussion above) numerical variable bounded within [-1,1].
+- Dimensionless (see discussion above) real numerical variable bounded within [-1,1].
 
