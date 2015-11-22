@@ -5,28 +5,54 @@ date: "November 20th, 2015"
 ---
 
 
-# Row Data
+# Description of raw data
+
+
+Raw data to use for this project come from a series of experiments carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+Data were computed starting from a serie of features collected from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were elaborated to filter out noise and separate the contribution of gravity acceleration. Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).
+
+These signals were used to estimate the following variables of the feature vector for each pattern: mean mean(), standard deviation std(), median absolute deviation mad(), Largest value in array max(), smallest value in array min(), signal magnitude area sma(), energy measure energy(), interquartile range iqr(), signal entropy entropy(), autorregresion coefficients arCoeff(), correlation coefficient between two signals correlation(), index of the frequency component with largest magnitude maxInds(), weighted average of the frequency components to obtain a mean frequency meanFreq(), skewness of the frequency domain signal skewness(), kurtosis of the frequency domain signal kurtosis(), energy of a frequency interval within the 64 bins of the FFT of each window bandsEnergy(), angle between to vectors angle(). Additional vectors were obtained by averaging the signals in a signal window sample: gravityMean, tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJerkMean. These are used on the angle() variable.
+
+For this project we can ignore the original (inertial) signal and just focus on the estimated features. Files relevant to this project are then:
+
+- 'features.txt': List of all features.
+
+- 'activity_labels.txt': Links the class labels with their activity name.
+
+- 'train/X_train.txt': Training data set, with each row corresponding to a is a 561-dim. feature vector associated to a given subject doing a given activity.
+
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
+- 'train/y_train.txt': Training activity labels.
+
+- 'test/X_test.txt': Test data set, with each row corresponding to a is a 561-dim. feature vector associated to a given subject doing a given activity.
+
+- 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
+- 'test/y_test.txt': Test activity labels.
 
 
 # Instructions
 
-The script requires the package dplyr to be installed on the computer. To run the analysis, download the script, then set the working directory to the directory containing the script.
+The script requires the package dplyr to be installed on the computer.
 
-To run the script and start the analysis, use setwd to set the working directory to be the directory containing the script, then source the script into R with source("analysis_run.R")
+To run the script and start the analysis, use setwd to set the working directory to be the directory containing the script, then source the script into R with 
+> source("analysis_run.R")
 
 The script will first check if the data is already present. If not, it will first download it in the same directory, then start the analysis.
 
-Once finished, you will find in the working directory a text file named "tidy_data.txt" containing the average of each measurement of mean and standard deviation, computed for each activity and each subject (see the file CodeBook.md for a detailed description of the variables).
+Once finished, you will find in the working directory a text file named "tidy_table.txt" containing the average of each measurement of mean and standard deviation, computed for each activity and each subject (see the file CodeBook.md for a detailed description of variables).
 
 To read the data into R use read.table with header=TRUE:
-read.table("./tidy_table.txt", header=TRUE)
-
+> data <- read.table("./tidy_table.txt", header=TRUE)
+> View(data)
 
 # Detailed procedure
 
 The script runs through the following steps:
 
-* it checks if the human activity recognition data is already present. If not, it downloads it and put it in a folder named "UCI HAR Dataset" within the current working directory.
+* It checks if the human activity recognition data is already present. If not, it downloads it and put it in a folder named "UCI HAR Dataset" within the current working directory.
 
 * It loads the relevant data into R: it creates for both the test and train group three datasets containing respectively 2947 and 7352 observations of subject (1 variable), activity performed (1 variable), and estimated features (561 variables).
 
@@ -53,4 +79,10 @@ The script runs through the following steps:
 
 ## Remarks
 
-The last dataset created contains 180 observables (30 subjects, each performing 6 different activities) of 68 variables, namely the subject performing the activity, the activity performed, plus the average of 66 measurements of mean or of standard deviation. It satisfies the criteria for a tidy dataset because 
+The last dataset created contains 180 observables (30 subjects, each performing 6 different activities) of 68 variables, namely the subject performing the activity, the activity performed, plus the average of 66 measurements of mean or of standard deviation. 
+
+It satisfies the criteria for a tidy dataset because:
+
+- each variable that has been measures is contained in one column;
+
+- each observation for that variable is contained in one row.

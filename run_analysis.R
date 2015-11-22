@@ -65,7 +65,7 @@ mean_std_data$Activity <- gsub("6","Laying",as.character(mean_std_data$Activity)
 
 ## creating tidy averaged dataframe
 averaged_HAR <- mean_std_data %>% group_by(Subject,Activity) %>% summarise_each(funs(mean))
-colnames(averaged_HAR) <- paste("Averaged", colnames(averaged_HAR), sep = ".")
+colnames(averaged_HAR)[3:68] <- paste("Averaged", colnames(averaged_HAR)[3:68], sep = ".")
  
 ## write the tidy dataset to a file
 write.table(averaged_HAR, file ="./tidy_table.txt", row.names = FALSE)
