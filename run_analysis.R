@@ -37,8 +37,8 @@ names(train) <- c("Subject", "Activity", features)
 har_data  <- rbind(train, test)
 
 ## create a vector listing the indexes associated to measurments of mean and standard deviation  
-columns <- sort(c(grep("mean\\(\\)", featnames_data$Feature, value = FALSE), 
-                  grep("std\\(\\)", featnames_data$Feature, value = FALSE)))
+columns <- sort(c(grep("mean\\(\\)", features, value = FALSE), 
+                  grep("std\\(\\)", features, value = FALSE)))
 
 ## subset the dataframe to include just mean + standard deviation data
 mean_std_data <- har_data[,c(1,2,columns+2)]

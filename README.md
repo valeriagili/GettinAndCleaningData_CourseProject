@@ -14,7 +14,7 @@ Data were computed starting from a serie of features collected from the accelero
 
 These signals were used to estimate the following variables of the feature vector for each pattern: mean mean(), standard deviation std(), median absolute deviation mad(), Largest value in array max(), smallest value in array min(), signal magnitude area sma(), energy measure energy(), interquartile range iqr(), signal entropy entropy(), autorregresion coefficients arCoeff(), correlation coefficient between two signals correlation(), index of the frequency component with largest magnitude maxInds(), weighted average of the frequency components to obtain a mean frequency meanFreq(), skewness of the frequency domain signal skewness(), kurtosis of the frequency domain signal kurtosis(), energy of a frequency interval within the 64 bins of the FFT of each window bandsEnergy(), angle between to vectors angle(). Additional vectors were obtained by averaging the signals in a signal window sample: gravityMean, tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJerkMean. These are used on the angle() variable.
 
-For this project we can ignore the original (inertial) signal and just focus on the estimated features. Files relevant to this project are then:
+For the sake of this project we can ignore the original (inertial) signal and just focus on the estimated features. Files relevant to us are then:
 
 - 'features.txt': List of all features.
 
@@ -54,9 +54,9 @@ The script runs through the following steps:
 
 * It checks if the human activity recognition data is already present. If not, it downloads it and put it in a folder named "UCI HAR Dataset" within the current working directory.
 
-* It loads the relevant data into R: it creates for both the test and train group three datasets containing respectively 2947 and 7352 observations of subject (1 variable), activity performed (1 variable), and estimated features (561 variables).
+* It loads the relevant data into R: it reads files 'test/subject_test.txt', 'test/y_test.txt', and 'test/X_test.txt' for the test group and 'train/subject_train.txt', 'train/y_train.txt', and 'traint/X_train.txt' for the training group, creating for both groups three datasets containing respectively 2947 and 7352 observations of subject (1 variable), activity performed (1 variable), and estimated features (561 variables).
 
-* It extracts from the file features.txt the names of the 561 estimated features, and it saves them in a vector named "features"."
+* It extracts from the file features.txt the names of the 561 estimated features, and it saves them in a vector named "features".
 
 * It merges by column the three test dataframe into a single dataframe named "test", placing first the subject performing the activity, then the activity performed and finally the features; variable names are set to "Subject", "Activity", and to features as listed in vector "features".
 
