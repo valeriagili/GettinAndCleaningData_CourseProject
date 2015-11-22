@@ -64,9 +64,9 @@ mean_std_data$Activity <- gsub("6","Laying",as.character(mean_std_data$Activity)
  colnames(mean_std_data) <- gsub("\\.\\.","\\.",colnames(mean_std_data))
 
 ## creating tidy averaged dataframe
-averaged_HAR <- mean_std_data %>% group_by(Subject,Activity) %>% summarise_each(funs(mean))
-colnames(averaged_HAR)[3:68] <- paste("Averaged", colnames(averaged_HAR)[3:68], sep = ".")
+tidy_averaged_data <- mean_std_data %>% group_by(Subject,Activity) %>% summarise_each(funs(mean))
+colnames(tidy_averaged_data)[3:68] <- paste("Averaged", colnames(tidy_averaged_data)[3:68], sep = ".")
  
 ## write the tidy dataset to a file
-write.table(averaged_HAR, file ="./tidy_table.txt", row.names = FALSE)
+write.table(tidy_averaged_data, file ="./tidy_table.txt", row.names = FALSE)
 

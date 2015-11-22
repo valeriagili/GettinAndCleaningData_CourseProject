@@ -41,11 +41,10 @@ For the sake of this project we can ignore the original (inertial) signal and ju
 
 - The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2). 
 - The gyroscope units are rad/seg. 
-- Features are normalized and bounded within [-1,1], thus they are dimensionless.
+- Features are normalized and bounded within [-1,1].
+- The normalization procedure implies that each dimensionful quantity is divided by another quantity with the same units. This makes the features dimensionless.
 
-##Creating the tidy datafile
-
-###Guide to create the tidy data file
+##Guide to create the tidy datafile
 
 Tidy datafile was created by (please refer to the README.md file for a detailed description of the code):
 
@@ -59,7 +58,7 @@ Tidy datafile was created by (please refer to the README.md file for a detailed 
 
 5. cleaning the variable names making them fit the convention where a period is used as separator between words, and each word is capitalized.
 
-6. generating a second, tidy dataset named "averaged_HAR" by replacing each variable with its average computed for each group and each activity.
+6. generating a second, tidy dataset named "tidy_averaged_data" by replacing each variable with its average computed for each group and each activity.
 
 7. writing the tidy dataset into a tidy_table.txt file. 
 
@@ -67,6 +66,8 @@ Tidy datafile was created by (please refer to the README.md file for a detailed 
 ##Description of the variables in the tidy_table.txt file
 
 The tidy_table.txt file contains 180 observables (30 subjects, each performing 6 different activities) of 68 variables, namely the subject performing the activity, the activity performed, plus the average of 66 feature estimates either of mean or of standard deviation on the original signal computed for each activity and for each individual.
+
+Since the features estimated in the original dataset were pure numbers (dimensionless), also their averages will be dimensionless numbers.
 
 A detailed variable description follows:
 
